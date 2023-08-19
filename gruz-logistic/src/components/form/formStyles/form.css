@@ -1,0 +1,72 @@
+.form__content-title {
+  text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1-5);
+}
+
+.form__input-container.display-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn.display {
+  color: white;
+  background: linear-gradient(to bottom, #1c87d4, #19159b);
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.btn.display:hover {
+  transform: scale(1.08);
+  background-color: var(--body-color);
+}
+
+.button-submit.remove-button {
+  background-color: var(--body-color);
+  cursor: default;
+  color: white;
+}
+
+.button__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-submit {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  padding: 0.7rem 1rem;
+}
+
+.form__mapbox {
+  padding-bottom: var(--mb-2);
+}
+
+@media screen and (max-width: 992px) {
+  .partnership {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form__container {
+    grid-template-columns: max-content;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .partnership {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

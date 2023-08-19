@@ -1,0 +1,104 @@
+.contact__full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.partnership {
+  padding: 0;
+}
+.partnership__container {
+  position: relative;
+  min-height: 100vh;
+  background-color: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.partnership__content {
+  width: 100%;
+  max-width: 820px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 0.5px solid rgba(255, 254, 254, 0.3);
+}
+
+.partnership__input-data {
+  background-color: var(--body-color);
+  position: relative;
+}
+
+.circle.one.partnership {
+  right: 0px;
+}
+
+.form__mabox-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.distance__duration {
+  color: #333;
+}
+
+.distance__duration-text {
+  color: var(--title-color);
+}
+
+@media screen and (max-width: 768px) {
+  .partnership__content {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mapboxgl-ctrl-geocoder {
+    min-width: 180px;
+    width: 50px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .mapboxgl-ctrl-geocoder {
+    min-width: 150px;
+    width: 50px;
+    font-size: 0.8rem;
+  }
+
+  .map-container {
+    width: 250px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mapboxgl-ctrl-geocoder {
+    min-width: 180px;
+    width: 50px;
+    font-size: 0.8rem;
+  }
+
+  .map-container {
+    width: 200px;
+    height: 210px;
+  }
+
+  .button__container {
+    margin-left: 0;
+    margin-right: 0;
+    gap: 10px;
+  }
+}
